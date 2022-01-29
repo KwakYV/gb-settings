@@ -1,7 +1,7 @@
 gb.api:
   endpoint:
     base-uri: '127.0.0.1:8080'
-    manufacturer-url: 'http://${gb.api.endpoint.base-uri}/internal/api/v1/manufacturer'
+    manufacturer-url: 'http://{{ gb.api.endpoint.base-uri }}/internal/api/v1/manufacturer'
   connection:
     period: 3000 #Mills
     max-period: 5000 #Mills
