@@ -1,10 +1,13 @@
-gb.api.endpoint.base-uri: 'localhost:8080'
-
-spring:
-  datasource:
-    url: 'jdbc:postgresql://localhost:5432/gb_shop'
-    username: 'geek'
-    password: 'geek'
+spring.datasource:
+  url: 'jdbc:postgresql://localhost:5432/gb_shop'
+  username: '{cipher}AQCASdkI7XtYQzLDC03S55CMSTAFm+10CIH37OlUv7rw3G+hqlzXL2lDd98kFFY6OhIXSPqQl6flHhRAkgZpKwckrxomdNEUrkT+1lIQeDA02xpbKlS63J97P574dvRz7tXYS6Tjs3un23I5i0pHvV1MxgBcXxd2tK55Vyww7lAT23XCFTdRNLW50uO70vHLw6dZtVjdh5kcYQVnUSy91yhC/R1A6BagnxuYA6AXMdW+5LRVqvwzQdr9D1unnjxGqYA4GmhmUYXNhtu60LqGwSJzQLUS45qhT3uJevZgXpOdRE3+lO89+hL/h528gSqW/Pndfqlp16tgirAy1zDWEcfbg78Qoe27dY3aeOOM5vBofhPSGrsaB5eJ2+cSOdStYxY='
+  password: '{cipher}AQAi4l28rwq3/jX4fDH54r+tsjJ9eZGLbnkmujLL7+QTb5c+LSOaVSn5zVtCW5kt+vJevvznO8TNhUEnm1LWwpZosdhbSedS7Pw99FLNa7Z0SCi2rmpIJYWcCFOivUqTn31evLIiK9wVWyDXOyX6GdTSbxT8/B9k4KRothCbskq798TUtLoXBsUGpYhb7KF8+J4RsDnYlYreNAsn4az+OF4gVGdOsw8pclF1PO7YVMasX36A2W3YRrPtw31Ljy+C3vIJFCHoNYpZAD95jU84TtMx3rljX2//jb5Ae6aGenJrsdYh7WeTM6GSv+lVL1/wmSzKnn2cju1NJk76EAUyhpoD4Q1J6z0t+BNuDJ2qlX1FtC5UzSAsUbPPacK4QNsQjYE='
+  
   artemis:
     password: 'simetraehcapa'
     user: 'artemis'
+
+gb.api.endpoint.base-uri: 'localhost:8080'
+
+  
+
